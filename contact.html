@@ -12,11 +12,38 @@
       <img id="Logo" src=image/Tobyang.png alt="Logo">
       <h1>YinyangLin's Personal Blog</h1>
       <script src="index.js"></script>
-      </div>
+    </div>
       <ul id="nav">
         <li><a href="index.html">Blog</a></li>
         <li><a href="about.html">About Me</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+      <form id="ContactForm" action="" method="get" class="form-example">
+        <div class="form-example">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="form-example">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="dropdown">
+          <label for="Contact">Reason for Contact: </label>
+          <button class="dropbtn">Reason</button>
+          <div class="dropdown-content">
+            <a href="#">Saying Hi!!</a>
+            <a href="#">Looking For a Contractor</a>
+            <a href="#">Interested in an Interview</a>
+          </div>
+        </div>
+        <div class="textarea">
+          <label for="story">Full Description:</label>
+            <textarea id="Comment" name="Comment" rows="20" cols="60">
+            </textarea>
+        </div>
+        <div id="Submit" class="Submit">
+          <button class="SubmitButton">Submit</button>
+        </div>
+      </form>      
   </body>
 </html>

@@ -124,3 +124,64 @@ h1{
     font-style: normal;
     font-weight: 400;
 }
+#ContactForm{
+    position: fixed;
+    top: 328px ;
+    left: 274px;
+    border-top: 528px;
+    border-bottom: 128px;
+    border-left: 274px;
+    border-right: 686px;
+    width: 620px;
+    height: 363px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+}
+
+.dropbtn {
+    background-color: #424242;
+    color:#DDCDCD;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  #story{
+    position: fixed;
+    top: 460px;
+  }
+  #Submit{
+    position: relative;
+    top: 30px;
+  }
+  
