@@ -10,6 +10,7 @@ html {
     height: 199px;
     flex-shrink: 0;
     background: #F4A64E;
+    z-index: 100;
 }
 #Logo{
     position: fixed;
@@ -21,7 +22,7 @@ html {
     height: 352px;
     flex-shrink: 0;
 }
-h1{
+#TitleBox h1{
     position: fixed;
     top: 30px;
     left: 370px;
@@ -50,6 +51,7 @@ h1{
     top: 180px;
     left: 0px;
     right: 0px;
+    z-index: 100;
 }
 #nav li{
 	display: inline;
@@ -80,7 +82,6 @@ h1{
     height: 397px;
     flex-shrink: 0;
 }
-
 #MainContent p{
     position: fixed;
     top: 328px ;
@@ -123,6 +124,37 @@ h1{
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
+}
+#Blog1{
+    position: relative;
+    top: 210px;
+    left: 500px;
+    padding-top: 50px;  
+}
+#Blog1 h1{
+    font-weight: bold;
+}
+#Blog1 h2{
+    font-size: 22px;
+}
+#Blog1 p{
+    margin-top: 0;    
+    margin-bottom: 0;  
+    padding: 0;  
+    width: 780px;
+    height: fit-content;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+}
+#Blog1 img{
+    width: 552px;
+    height: 352px;
+    position: relative;
 }
 #ContactForm{
     position: fixed;
