@@ -3,30 +3,27 @@ html {
     background-image:url("image/gaming-pattern.webp");
     }
 #TitleBox{
-    position: fixed;
+    position: absolute;
     top:0;
     left:0;
     width: 1980px;
     height: 199px;
     flex-shrink: 0;
     background: #F4A64E;
-    z-index: 100;
 }
 #Logo{
-    position: fixed;
+    position: absolute;
     top: -78px;
     left: 79px;
-    right: 1489px;
     bottom: 806px;
     width: 352px;
     height: 352px;
     flex-shrink: 0;
 }
 #TitleBox h1{
-    position: fixed;
+    position: absolute;
     top: 30px;
     left: 370px;
-    right: 850px;
     bottom: 942px;
     display: flex;
     width: 800px;
@@ -47,11 +44,10 @@ html {
 	background-image: url("image/denim.png");
 	padding: 20px;
 	width: 1920px;
-    position: fixed;
+    position: absolute;
     top: 180px;
     left: 0px;
     right: 0px;
-    z-index: 100;
 }
 #nav li{
 	display: inline;
@@ -73,18 +69,23 @@ html {
 	background-color:#F0FF06;
 }
 #MainContent img {
-    position: fixed;
-    top: 350px;
+    position: absolute;
+    top: 330px;
     left: 1200px;
-    right: 124px;
     bottom: 333px;
     width: 596px;
     height: 397px;
     flex-shrink: 0;
 }
+#Title1{
+    position: relative;
+    top: 268px ;
+    left: 274px;
+    font-weight: bold;
+}
 #MainContent p{
-    position: fixed;
-    top: 328px ;
+    position: relative;
+    top: 268px ;
     left: 274px;
     border-top: 528px;
     border-bottom: 128px;
@@ -100,21 +101,15 @@ html {
     font-weight: 400;
     line-height: 1.5; 
 }
-#Title1{
-    position: fixed;
-    top: 268px ;
-    left: 274px;
-    font-weight: bold;
-}
 #Title2{
-    position: fixed;
-    top: 588px ;
+    position: relative;
+    top: 148px ;
     left: 274px;
     font-weight: bold;
 }
 #Game{
-    position: fixed;
-    top: 648px ;
+    position: relative;
+    top: 148px ;
     left: 274px;
     width: 620px;
     height: 363px;
@@ -154,7 +149,6 @@ html {
 #Blog1 img{
     width: 552px;
     height: 352px;
-    position: relative;
 }
 #Blog2{
     position: relative;
@@ -186,13 +180,8 @@ html {
     font-weight: 400;
     line-height: 1.5; 
 }
-table{
-    border: 2px; 
-    border: spacing 0px;;
-    padding:5px;
-}
 #ContactForm{
-    position: fixed;
+    position: relative;
     top: 328px ;
     left: 274px;
     border-top: 528px;
