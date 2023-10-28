@@ -128,7 +128,7 @@ html {
 #Blog1{
     position: relative;
     top: 210px;
-    left: 500px;
+    left: 400px;
     padding-top: 50px;  
 }
 #Blog1 h1{
@@ -155,6 +155,36 @@ html {
     width: 552px;
     height: 352px;
     position: relative;
+}
+#Blog2{
+    position: relative;
+    top: 210px;
+    left: 400px;
+}
+#Blog2 img{
+    width: 552px;
+    height: 352px;
+    position: relative;
+}
+#Blog2 h1{
+    font-weight: bold;
+}
+#Blog2 h2{
+    font-size: 22px;
+}
+#Blog2 p{
+    margin-top: 0;    
+    margin-bottom: 0;  
+    padding: 0;  
+    width: 780px;
+    height: fit-content;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
 }
 #ContactForm{
     position: fixed;
