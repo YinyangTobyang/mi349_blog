@@ -3,13 +3,14 @@ html {
     background-image:url("image/gaming-pattern.webp");
     }
 #TitleBox{
-    position: absolute;
+    position: sticky;
     top:0;
     left:0;
     width: 1980px;
     height: 199px;
     flex-shrink: 0;
     background: #F4A64E;
+    z-index: 9999;
 }
 #Logo{
     position: absolute;
@@ -19,6 +20,7 @@ html {
     width: 352px;
     height: 352px;
     flex-shrink: 0;
+    z-index: 9999;
 }
 #TitleBox h1{
     position: absolute;
@@ -44,10 +46,11 @@ html {
 	background-image: url("image/denim.png");
 	padding: 20px;
 	width: 1920px;
-    position: absolute;
+    position: sticky;
     top: 180px;
     left: 0px;
     right: 0px;
+    z-index: 9999;
 }
 #nav li{
 	display: inline;
@@ -68,24 +71,33 @@ html {
 #nav a:hover{
 	background-color:#F0FF06;
 }
-#MainContent img {
-    position: absolute;
-    top: 330px;
-    left: 1200px;
-    bottom: 333px;
+.MainContent figure{
+    float: right;
+}
+.MainContent img {
     width: 596px;
     height: 397px;
     flex-shrink: 0;
+    float:right;
+    margin-left: 10px;
 }
-#Title1{
+.MainContent figcaption{
+    text-align: center;
+    font-style: italic; 
+    font-size: 22px;
+    color:#000;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.MainContent h2{
     position: relative;
-    top: 268px ;
+    top: 48px ;
     left: 274px;
     font-weight: bold;
 }
-#MainContent p{
+.MainContent p{
     position: relative;
-    top: 268px ;
+    top: 38px ;
     left: 274px;
     border-top: 528px;
     border-bottom: 128px;
@@ -101,15 +113,9 @@ html {
     font-weight: 400;
     line-height: 1.5; 
 }
-#Title2{
+.MainContent ol{
     position: relative;
-    top: 148px ;
-    left: 274px;
-    font-weight: bold;
-}
-#Game{
-    position: relative;
-    top: 148px ;
+    top: 48px ;
     left: 274px;
     width: 620px;
     height: 363px;
@@ -180,6 +186,32 @@ html {
     font-weight: 400;
     line-height: 1.5; 
 }
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+}
+.row {
+    display: flex;
+}
+
+.header span{
+    flex: 1;
+    padding: 8px;
+    border: 5px solid#524d4d;
+    max-width: 150px;
+}
+.row span {
+    flex: 1;
+    padding: 8px;
+    border: 5px solid#524d4d;
+    max-width: 150px;
+}
+
 #ContactForm{
     position: relative;
     top: 328px ;
@@ -232,10 +264,6 @@ html {
   
   .dropdown:hover .dropdown-content {display: block;}
 
-  #story{
-    position: fixed;
-    top: 460px;
-  }
   #Submit{
     position: relative;
     top: 30px;
